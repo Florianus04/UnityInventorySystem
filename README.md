@@ -17,6 +17,7 @@ EquipButton ise itemlerin hangi slotta bulunduğunu kontrol eder ve ona göre en
 
 Yukarıdaki görselde 2 panelde de bulunan slotlar var bu slotlara ihtiyaca göre ekleme veya çıkarma yapabilirsiniz
 Sistem çalışırken taşıma sırasında önce boş slot olup olmadığı kontrol edilir eğer boş slot bulunursa ilk müsait yere itemler yerleştirilir.
+Boş slotlar her slotun içinde bulunan TransformState class'ı içindeki bool ile kontrol edilir, taşıma işlemi sırasında bu bool güncellenir.
 Şu an default olarak 5 mağaza slotu 3 envanter slotu vardır yani envantere 3 itemden fazlasını ekleyemezsiniz.
 
 ![Ekran görüntüsü 2024-05-18 152702](https://github.com/Florianus04/UnityInventorySystem/assets/101597266/e6a206a5-bd3d-48c6-a99b-c21d68af74cf)
